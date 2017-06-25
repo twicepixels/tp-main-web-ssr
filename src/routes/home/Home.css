@@ -1,0 +1,129 @@
+/**
+ * React Starter Kit (https://www.reactstarterkit.com/)
+ *
+ * Copyright © 2014-present Kriasoft, LLC. All rights reserved.
+ *
+ * This source code is licensed under the MIT license found in the
+ * LICENSE.txt file in the root directory of this source tree.
+ */
+
+@import '../../components/variables.css';
+
+.root {
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.container {
+  margin: 0 auto;
+  padding: 0 0 40px;
+  max-width: var(--max-content-width);
+  position: relative;
+  display: flex;
+  justify-content: center;
+  min-height: 600px;
+  max-height: 900px;
+  transition: all 0.4s ease;
+}
+.searchContainer {
+   position: absolute;
+    top: 50%; left: 50%;
+    transform: translate(-50%,-50%);
+    padding: 2rem;
+}
+
+.searchBox {
+  font-size: 17px;
+  width: 600px;
+  height: 43px;
+  float: center;
+  top: 50%;
+  line-height: 18px;
+  z-index: 2001;
+  opacity: 0.8;
+}
+
+.searchBox input {
+  width: 500px;
+  height: 43px;
+  border: none;
+  border: 0.5px solid #BECDD3;
+  background-color: #F2F2F2;
+  padding-left: 4px;
+  color: #011627;
+}
+
+.headlineContainer{
+  width: 100%;
+  min-height: 50px;
+  background-color: #D3DEE1;
+}
+
+.cierreContainer{
+  width: 100%;
+  min-height: 50px;
+  background-color: #D3DEE1;
+}
+
+.categoriasContainer, .interesesContainer, .trendingContainer {
+  width: 100%;
+  min-height: 50px;
+  background-color: #D3DEE1;
+}
+
+.containerRuler{
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.headlineText{
+  font-weight: 400;
+  color: #011627;
+  margin-top: 0;
+  margin-bottom: 0;
+  text-align: center;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.headerContainer {
+  border-bottom: 2px solid;
+  border-color: #011627;
+  width: 500px;
+  margin-bottom: 40px;
+  padding-top: 40px;
+}
+.tituloSecciones{
+  font-size: 25px;
+  font-weight: 400;
+  line-height: 1.5;
+  width: 300px;
+}
+
+.newsItem {
+  margin: 0 0 2rem;
+}
+
+.newsTitle {
+  font-size: 1.5rem;
+}
+
+.newsDesc {
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    font-size: 1.125rem;
+  }
+
+  pre {
+    white-space: pre-wrap;
+    font-size: 0.875rem;
+  }
+
+  img {
+    max-width: 100%;
+  }
+}

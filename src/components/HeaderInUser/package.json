@@ -1,0 +1,6 @@
+{
+  "name": "HeaderInUser",
+  "version": "0.0.0",
+  "private": true,
+  "main": "./HeaderInUser.js"
+}

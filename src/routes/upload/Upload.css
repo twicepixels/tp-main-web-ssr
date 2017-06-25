@@ -1,0 +1,56 @@
+/**
+ * React Starter Kit (https://www.reactstarterkit.com/)
+ *
+ * Copyright © 2014-present Kriasoft, LLC. All rights reserved.
+ *
+ * This source code is licensed under the MIT license found in the
+ * LICENSE.txt file in the root directory of this source tree.
+ */
+
+@import '../../components/variables.css';
+
+.root {
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.container {
+  margin: 0 auto;
+  padding: 0 0 40px;
+  max-width: var(--max-content-width);
+  position: relative;
+  display: flex;
+  justify-content: center;
+  min-height: 600px;
+  max-height: 900px;
+  transition: all 0.4s ease;
+}
+
+.containerDrop {
+  padding-top: 40px;
+}
+
+.contentBriff {
+  padding: 40px;
+}
+
+.dropzoneContent{
+  width: 100%;
+  border-style: dashed;
+}
+
+.headlineText{
+  font-weight: 400;
+  color: #011627;
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-top: 30px;
+}
+
+.subheadlineText{
+  font-weight: 400;
+  color: #011627;
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-top: 30px;
+}
